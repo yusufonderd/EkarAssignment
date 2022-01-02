@@ -13,14 +13,15 @@ Fragments :
 ## Screenshots
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/13941871/147887798-9bbd3d2d-737e-4bcb-b786-c80f90e86f15.jpg" width="24%" />  
+<img src="https://user-images.githubusercontent.com/13941871/147887838-8ceb6264-07fd-479a-8969-ceb0aca27873.jpg" width="30%" />  
+<img src="https://user-images.githubusercontent.com/13941871/147887798-9bbd3d2d-737e-4bcb-b786-c80f90e86f15.jpg" width="30%" />  
 </p>
 
 
 
 ## App Flow
 #### MapFragment
-App opens with map screen fragment and ​navigate to the home screen after showing the trendyol logo to the user for 2 seconds.
+App opens with splash screen fragment and navigate to the map screen after showing the ekar logo to the user for 2 seconds.
 
 #### MapFragment
 MapFragment is the main part of the app. In first launch, random markers are placed on the map around Dubai zone. Features is listed below:
