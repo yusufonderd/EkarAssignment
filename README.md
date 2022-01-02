@@ -10,6 +10,14 @@ Fragments :
 * VehicleFragment
 * OnBoardFragment
 
+## Screenshots
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/13941871/147887798-9bbd3d2d-737e-4bcb-b786-c80f90e86f15.jpg" width="24%" />  
+</p>
+
+
+
 ## App Flow
 #### MapFragment
 App opens with map screen fragment and ​navigate to the home screen after showing the trendyol logo to the user for 2 seconds.
