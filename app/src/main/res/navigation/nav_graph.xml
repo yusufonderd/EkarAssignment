@@ -5,7 +5,7 @@
     app:startDestination="@id/mapFragment">
     <fragment
         android:id="@+id/mapFragment"
-        android:name="com.ekar.assignment.MapFragment"
+        android:name="com.ekar.assignment.ui.map.MapFragment"
         android:label="MapFragment"
         tools:layout="@layout/fragment_map" />
 </navigation>

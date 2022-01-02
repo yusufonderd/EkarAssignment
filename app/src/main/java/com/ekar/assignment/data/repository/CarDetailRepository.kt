@@ -2,6 +2,7 @@ package com.ekar.assignment.data.repository
 
 import com.ekar.assignment.core.network.BaseRepository
 import com.ekar.assignment.data.api.ApiService
+import com.ekar.assignment.data.model.request.CarDetailRequest
 import com.ekar.assignment.di.coroutine.CoroutineThread
 import javax.inject.Inject
 
@@ -15,6 +16,11 @@ class CarDetailRepository @Inject constructor(
     private val coroutineThread: CoroutineThread
 ) : BaseRepository() {
 
-    suspend operator fun invoke(key: String) =
-        safeApiCall(dispatcher = coroutineThread.io) { api.getSpecs(key = key) }
+    suspend operator fun invoke(request: CarDetailRequest) =
+        safeApiCall(dispatcher = coroutineThread.io) {
+            api.getSpecs(
+                key = request.key,
+                vin = request.vin
+            )
+        }
 }

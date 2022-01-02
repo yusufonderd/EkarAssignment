@@ -1,7 +1,8 @@
-package com.ekar.assignment
+package com.ekar.assignment.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ekar.assignment.R
 
 class MainActivity : AppCompatActivity() {
 

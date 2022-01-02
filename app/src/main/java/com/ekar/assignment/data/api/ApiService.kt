@@ -12,5 +12,8 @@ import retrofit2.http.Query
 interface ApiService {
 
     @GET("specs")
-    suspend fun getSpecs(@Query("key") key: String): Response<CarDetailResponse>
+    suspend fun getSpecs(
+        @Query("key") key: String,
+        @Query("vin") vin: String
+    ): Response<CarDetailResponse>
 }
