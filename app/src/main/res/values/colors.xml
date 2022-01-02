@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ekar_blue">#FC44B7EA</color>
+    <color name="ekar_blue_transparent">#6344B7EA</color>
+
 </resources>

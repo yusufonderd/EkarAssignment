@@ -7,5 +7,17 @@
         android:id="@+id/mapFragment"
         android:name="com.ekar.assignment.ui.map.MapFragment"
         android:label="MapFragment"
-        tools:layout="@layout/fragment_map" />
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_map_to_vehicle"
+            app:destination="@id/vehicleFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/vehicleFragment"
+        android:name="com.ekar.assignment.ui.cardetail.VehicleFragment"
+        android:label="Vehicle Detail">
+
+    </fragment>
 </navigation>

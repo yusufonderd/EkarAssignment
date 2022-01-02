@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Ekar Assignment</string>
+    <string name="proceed_with_your_selection">Proceed your selection</string>
+    <string name="cd_car_image">Car Image</string>
+    <string name="year">Year</string>
+    <string name="available_colors">Available colors</string>
+    <string name="key_features">Key features</string>
+    <string name="base_price">Base Price</string>
+    <string name="contract_length">Contract Length</string>
+    <string name="standard_seating">Standard Seating</string>
+    <string name="aed_month">AED/MONTH</string>
+    <string name="seating">SEATING</string>
+    <string name="booking_fee">Booking Fee</string>
+    <string name="how_contracts_work">How contracts work?</string>
+    <string name="message_button_actions">Toast messages</string>
+
 </resources>

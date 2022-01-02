@@ -8,12 +8,18 @@ import com.google.gson.annotations.SerializedName
  */
 data class CarDetailResponse(
     @SerializedName("success") val success: Boolean,
-    @SerializedName("attributes") val attributes: CarDetailAttributeResponse
-
+    @SerializedName("attributes") val attributes: CarDetailAttributeResponse,
+    @SerializedName("colors") val colors: List<CarDetailColorResponse>
 )
-
+data class CarDetailColorResponse(
+    @SerializedName("name") val name: String
+)
 data class CarDetailAttributeResponse(
-    @SerializedName("year") val year: String,
-    @SerializedName("model") val model: String,
-    @SerializedName("make") val make: String
+    @SerializedName("year") val year: String?,
+    @SerializedName("model") val model: String?,
+    @SerializedName("make") val make: String?,
+    @SerializedName("style") val style: String?,
+    @SerializedName("delivery_charges") val deliveryCharges: String?,
+    @SerializedName("standard_seating") val seating: String?
+
 )
