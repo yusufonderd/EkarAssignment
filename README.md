@@ -13,11 +13,10 @@ Fragments :
 ## Screenshots
 
 <p align="center">
+<img src="https://user-images.githubusercontent.com/13941871/147888181-8e279fa3-6971-494f-8fa4-130a3d7dd292.jpg" width="30%" />  
 <img src="https://user-images.githubusercontent.com/13941871/147887838-8ceb6264-07fd-479a-8969-ceb0aca27873.jpg" width="30%" />  
 <img src="https://user-images.githubusercontent.com/13941871/147887798-9bbd3d2d-737e-4bcb-b786-c80f90e86f15.jpg" width="30%" />  
 </p>
-
-
 
 ## App Flow
 #### MapFragment
