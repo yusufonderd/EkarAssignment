@@ -7,7 +7,7 @@ import android.view.View
 import androidx.navigation.fragment.findNavController
 import com.ekar.assignment.R
 import com.ekar.assignment.databinding.FragmentMapBinding
-import com.ekar.assignment.ui.cardetail.VehicleFragment
+import com.ekar.assignment.ui.vehicle.VehicleFragment
 import com.ekar.assignment.utils.DummyLocationProvider
 
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -22,8 +22,6 @@ const val PADDING_MAP = 100
 @AndroidEntryPoint
 class MapFragment : Fragment(R.layout.fragment_map), GoogleMap.OnMarkerClickListener,
     GoogleMap.OnMapClickListener {
-
-    private val binding by viewBinding(FragmentMapBinding::bind)
 
     lateinit var googleMap: GoogleMap
 
@@ -68,10 +66,7 @@ class MapFragment : Fragment(R.layout.fragment_map), GoogleMap.OnMarkerClickList
     }
 
     override fun onMapClick(latLng: LatLng) {
-        val fragment = parentFragmentManager.findFragmentByTag(VehicleFragment.TAG)
-        if (fragment != null) {
-            parentFragmentManager.beginTransaction().remove(fragment).commit()
-        }
+       
     }
 
 }

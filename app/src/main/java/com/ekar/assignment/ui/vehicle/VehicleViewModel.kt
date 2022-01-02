@@ -1,4 +1,4 @@
-package com.ekar.assignment.ui.cardetail
+package com.ekar.assignment.ui.vehicle
 
 import androidx.lifecycle.viewModelScope
 import com.ekar.assignment.core.base.BaseViewModel

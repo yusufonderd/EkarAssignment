@@ -2,7 +2,23 @@
 <navigation xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    app:startDestination="@id/mapFragment">
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.ekar.assignment.ui.splash.SplashFragment"
+        android:label="Splash">
+
+        <action
+            android:id="@+id/action_splash_to_map"
+            app:destination="@id/mapFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/main_graph"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+
     <fragment
         android:id="@+id/mapFragment"
         android:name="com.ekar.assignment.ui.map.MapFragment"
@@ -16,7 +32,7 @@
 
     <fragment
         android:id="@+id/vehicleFragment"
-        android:name="com.ekar.assignment.ui.cardetail.VehicleFragment"
+        android:name="com.ekar.assignment.ui.vehicle.VehicleFragment"
         android:label="Vehicle Detail">
 
     </fragment>
