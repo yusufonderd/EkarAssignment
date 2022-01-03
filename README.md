@@ -2,7 +2,7 @@
 Ekar Assignment for Mobile Engineers
 
 ## UI
-App consist of 4 different fragments and 1 root activity. Activity holds a container layout in order to manage fragments which will be controlled by navigation component.
+App consist of 3 different fragments and 1 root activity. Activity holds a container layout in order to manage fragments which will be controlled by navigation component.
 
 Fragments :
 * SplashScreen
