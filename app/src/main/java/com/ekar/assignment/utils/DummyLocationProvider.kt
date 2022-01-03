@@ -1,6 +1,6 @@
 package com.ekar.assignment.utils
 
-import com.google.android.gms.maps.model.LatLng
+import com.google.android.libraries.maps.model.LatLng
 import kotlin.random.Random
 
 /**
