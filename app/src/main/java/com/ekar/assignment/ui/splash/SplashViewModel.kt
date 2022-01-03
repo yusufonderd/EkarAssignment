@@ -38,5 +38,6 @@ class SplashViewModel @Inject constructor(): BaseViewModel(){
 }
 
 sealed class SplashEvent  {
+    object Initial : SplashEvent()
     object NavigateToHome : SplashEvent()
 }

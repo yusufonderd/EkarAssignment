@@ -21,13 +21,17 @@ const val DEFAULT_KEY_VALUE = "tha91z6lv_j8u1nv4xs_ilfswb1e3"
 const val DEFAULT_VIN_VALUE = "JTDZN3EU0E3298500"
 
 @HiltViewModel
-class CarDetailViewModel @Inject constructor(private val carDetail: GetCarDetail) :
+class VehicleViewModel @Inject constructor(private val carDetail: GetCarDetail) :
     BaseViewModel() {
 
     private val _uiState = MutableStateFlow(UiState())
     val uiState: StateFlow<UiState> = _uiState
 
-    fun getCarDetail(key: String = DEFAULT_KEY_VALUE, vin: String = DEFAULT_VIN_VALUE) {
+    init {
+        getCarDetail()
+    }
+
+    private fun getCarDetail(key: String = DEFAULT_KEY_VALUE, vin: String = DEFAULT_VIN_VALUE) {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             request(

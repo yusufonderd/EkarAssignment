@@ -13,5 +13,8 @@
     <string name="booking_fee">Booking Fee</string>
     <string name="how_contracts_work">How contracts work?</string>
     <string name="message_button_actions">Toast messages</string>
+    <string name="splash">Splash</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="map">Map</string>
 
 </resources>
