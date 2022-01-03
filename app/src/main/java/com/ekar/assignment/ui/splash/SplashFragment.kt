@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -16,6 +17,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.ekar.assignment.R
+import com.ekar.assignment.ui.theme.padding_16
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
@@ -66,8 +68,8 @@ class SplashFragment : Fragment() {
         Image(
             painter = painterResource(R.drawable.ekar_logo),
             contentDescription = getString(R.string.app_name),
-            contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
+            contentScale = ContentScale.Fit,
+            modifier = Modifier.fillMaxSize().padding(padding_16)
         )
     }
 
