@@ -5,10 +5,9 @@ Ekar Assignment for Mobile Engineers
 App consist of 4 different fragments and 1 root activity. Activity holds a container layout in order to manage fragments which will be controlled by navigation component.
 
 Fragments :
-* SplashFragment
-* MapFragment
-* VehicleFragment
-* OnBoardFragment
+* SplashScreen
+* MapScreen
+* VehicleScreen
 
 ## Screenshots
 
@@ -19,15 +18,15 @@ Fragments :
 </p>
 
 ## App Flow
-#### MapFragment
+#### SplashScreen
 App opens with splash screen fragment and navigate to the map screen after showing the ekar logo to the user for 2 seconds.
 
-#### MapFragment
-MapFragment is the main part of the app. In first launch, random markers are placed on the map around Dubai zone. Features is listed below:
+#### MapScreen
+Map Screen is the main part of the app. In first launch, random markers are placed on the map around Dubai zone. Features is listed below:
 * Different colored markers placed in map.
 * Click marker to navigate vehicle screen.
 
-#### VehicleFragment
+#### VehicleScreen
 This screen responsible for showing all details of vehicle such as price, standard seating, booking fee and the other things.
 
 ## Architecture
