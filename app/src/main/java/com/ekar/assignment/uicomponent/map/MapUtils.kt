@@ -1,4 +1,4 @@
-package com.ekar.assignment.utils
+package com.ekar.assignment.uicomponent.map
 
 import android.os.Bundle
 import androidx.compose.runtime.Composable

@@ -10,8 +10,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.NavController
 import com.ekar.assignment.ui.Screen
-import com.ekar.assignment.utils.DummyLocationProvider
-import com.ekar.assignment.utils.rememberMapViewWithLifecycle
+import com.ekar.assignment.data.mock.DummyLocationProvider
+import com.ekar.assignment.uicomponent.map.rememberMapViewWithLifecycle
 import com.google.android.libraries.maps.CameraUpdateFactory
 import com.google.android.libraries.maps.model.BitmapDescriptorFactory
 import com.google.android.libraries.maps.model.LatLngBounds

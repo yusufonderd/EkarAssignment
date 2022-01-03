@@ -1,4 +1,4 @@
-package com.ekar.assignment.utils
+package com.ekar.assignment.data.mock
 
 import com.google.android.libraries.maps.model.LatLng
 import kotlin.random.Random
