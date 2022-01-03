@@ -15,6 +15,7 @@ import com.ekar.assignment.ui.splash.Splash
 import com.ekar.assignment.ui.theme.EkarAssignmentTheme
 import com.ekar.assignment.ui.vehicle.VehicleScreen
 import dagger.hilt.android.AndroidEntryPoint
+import com.ekar.assignment.R
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -29,15 +30,15 @@ class MainActivity : AppCompatActivity() {
                     Scaffold(
                         topBar = {
                             TopAppBar(title = {
-                                Text(text = "Ekar")
+                                Text(text = stringResource(id = R.string.app_name))
                             })
                         }
-                    ){
-                            NavHost(navController, startDestination = Screen.Splash.route) {
-                                composable(Screen.Splash.route) { Splash(navController) }
-                                composable(Screen.Map.route) { MapScreen(navController) }
-                                composable(Screen.Vehicle.route) { VehicleScreen(navController) }
-                            }
+                    ) {
+                        NavHost(navController, startDestination = Screen.Splash.route) {
+                            composable(Screen.Splash.route) { Splash(navController) }
+                            composable(Screen.Map.route) { MapScreen(navController) }
+                            composable(Screen.Vehicle.route) { VehicleScreen(navController) }
+                        }
                     }
                 }
             }
