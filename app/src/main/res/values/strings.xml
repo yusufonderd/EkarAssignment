@@ -16,5 +16,6 @@
     <string name="splash">Splash</string>
     <string name="vehicle">Vehicle</string>
     <string name="map">Map</string>
+    <string name="loading">Loading…</string>
 
 </resources>

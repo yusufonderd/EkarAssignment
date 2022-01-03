@@ -45,7 +45,7 @@ fun VehicleScreen(navController: NavController) {
     val context = LocalContext.current
 
     if (uiState.isLoading) {
-        CircularProgressIndicator(modifier = Modifier.size(10.dp, 20.dp))
+        LoadingView()
     } else {
         LazyColumn{
             item {
